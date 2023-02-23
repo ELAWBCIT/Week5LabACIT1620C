@@ -3,14 +3,21 @@ h1 {
     color: #0000ff;
 }
 
-h2 {
-    color: #0000ff;
+nav {
+    font-family: 'montserrat', sans-serif; font-size: 1em; font-weight: normal;
 }
 
-h3 {
-    color: #0000ff;
+.content-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
+.content-list a{
+    padding: 15px;
+    display: inline-block;
+}
 
 p {
     color: #0000ff;
