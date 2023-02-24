@@ -3,8 +3,10 @@ h1 {
     color: #0000ff;
 }
 
-nav {
+nav{
     font-family: 'montserrat', sans-serif; font-size: 1em; font-weight: normal;
+    text-align: center;
+    background-color: lightblue;
 }
 
 .content-list{
@@ -19,6 +21,11 @@ nav {
     display: inline-block;
 }
 
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 p {
     color: #0000ff;
 }
@@ -29,11 +36,6 @@ body{
 
 .indexh{
     font-family: 'montserrat', sans-serif; font-size: 2em; font-weight: normal;
-}
-
-nav{
-    text-align: center;
-    background-color: lightblue;
 }
 
 section{
