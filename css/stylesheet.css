@@ -1,6 +1,7 @@
 /* Use a CSS file to change the color of your page and text color of h1. Choose colors with appropriate contrast for accessibility (3 p) */
 h1 {
     color: #0000ff;
+    
 }
 
 nav{
@@ -41,4 +42,14 @@ body{
 section{
     text-align: center;
     background-color: lightblue;
+}
+
+.cheader{
+    font-family: 'montserrat', sans-serif; font-size: 1em; font-weight: normal;
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
 }
