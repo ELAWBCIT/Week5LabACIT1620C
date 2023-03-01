@@ -58,5 +58,15 @@ ul {
     list-style-type: none;
 }
 
+.courselist > li {
+    border-bottom: black solid 3px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
 /* Media Query Section */
-@media screen 
+@media screen (600px) {
+    nav {
+
+    }
+}
