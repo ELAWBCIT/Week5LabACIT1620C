@@ -32,7 +32,7 @@ p {
 }
 
 body{
-    background-color: #f5f5dc;
+    background-color: lavender;
 }
 
 .indexh{
@@ -53,3 +53,10 @@ section{
     display: flex;
     justify-content: center;
 }
+
+ul {
+    list-style-type: none;
+}
+
+/* Media Query Section */
+@media screen 
