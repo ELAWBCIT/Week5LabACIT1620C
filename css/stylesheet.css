@@ -8,9 +8,11 @@ nav{
     font-family: 'montserrat', sans-serif; font-size: 1em; font-weight: normal;
     text-align: center;
     background-color: lightblue;
+    display: flex;
+    flex-direction: column;
 }
 
-.content-list{
+/* .content-list{
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -20,7 +22,7 @@ nav{
 .content-list a{
     padding: 15px;
     display: inline-block;
-}
+} */
 
 div {
     display: grid;
@@ -42,6 +44,8 @@ body{
 section{
     text-align: center;
     background-color: lightblue;
+    padding: 10px;
+
 }
 
 .cheader{
@@ -58,15 +62,29 @@ ul {
     list-style-type: none;
 }
 
-.courselist > li {
+.courselist {
+    padding-left: 0;
+}
+
+/* .courselist > li {
     border-bottom: black solid 3px;
     margin-bottom: 10px;
+    list-style: none;
+} */
+
+.midlist {
+    border-top: black solid 1px;
+    /* border-bottom: black solid 1px; */
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
     list-style: none;
 }
 
 /* Media Query Section */
-@media screen (600px) {
-    nav {
-
+@media screen and (min-width: 600px) {
+    .courselist {
+        display: grid;
+        
     }
 }
+
