@@ -78,6 +78,14 @@ ul {
     list-style: none;
 }
 
+.borderclass {
+    border-top: black solid 2px;
+    /* border-bottom: black solid 1px; */
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    list-style: none;
+}
+
 /* Media Query Section */
 @media screen and (min-width: 600px) {
     .courselist > li {
