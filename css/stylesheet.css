@@ -8,8 +8,6 @@ nav{
     font-family: 'montserrat', sans-serif; font-size: 1em; font-weight: normal;
     text-align: center;
     background-color: lightblue;
-    display: flex;
-    flex-direction: column;
 }
 
 /* .content-list{
@@ -73,7 +71,7 @@ ul {
 } */
 
 .midlist {
-    border-top: black solid 1px;
+    border-top: black solid 2px;
     /* border-bottom: black solid 1px; */
     margin-top: 10px;
     /* margin-bottom: 10px; */
@@ -82,9 +80,33 @@ ul {
 
 /* Media Query Section */
 @media screen and (min-width: 600px) {
-    .courselist {
+    .courselist > li {
         display: grid;
-        
+        grid-template-columns: 1fr 1fr;
     }
-}
+
+    .date{
+        grid-column: 1
+    }
+
+    .desc{
+        grid-row: 1;
+        grid-column: 2
+    }
+
+    .content-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        gap: 10px;
+    }
+    /* .courselist > li > p {
+        grid-column: 2/-1;
+        grid-row: 1/-1;
+    }
+    .courselist > div {
+        background-color: red;
+    } */
+    }
+
 
