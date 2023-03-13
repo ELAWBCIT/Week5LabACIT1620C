@@ -22,6 +22,7 @@ let user = parseInt(prompt("Enter a course code"));
 
 let taco = true;
 
+// This is the while loop we are using
 while (taco) { 
     if ((!isNaN(user)) && (user >= 1000) && (user <= 9999)){ 
         taco = false;
