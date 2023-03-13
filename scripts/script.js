@@ -31,7 +31,7 @@ while (taco) {
         for (let i = 0; i < courseList.length; i++) {
             let codex = courseList[i] 
                 if (codex.code === user) { exists = true;
-                    console.log('Yes I am taking the course ' + codex.code + ' ' + codex.name)
+                    console.log(`Yes I am taking the course ${codex.code} ${codex.name}`)
                     break;
                 } 
         }
